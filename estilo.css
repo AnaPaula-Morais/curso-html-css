@@ -1,0 +1,40 @@
+
+#titulo1 {
+    color:red;
+    font-size: 40px;        
+}
+
+.texto {
+    color: green;
+}
+a {
+    color:red;
+    font-size: 30px;
+}
+
+img {
+    width: 300px;
+}
+
+ul {
+    font-weight: bold;
+    color:salmon
+}
+
+
+/* formas de chamar o elemento
+Nome_do_elemento {
+ }
+ 
+ #id_do_elemento {
+ }
+ 
+ .class_do_elemento {
+ }
+ 
+ elemento, outroelemento {
+ }
+ 
+ elemnto outroelemento {
+ }
+ */
