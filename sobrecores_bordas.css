@@ -1,0 +1,41 @@
+p {
+    border: 3px solid #0000FF;
+    border-radius: 5px;
+    
+}
+
+div {
+    background-color: #ca33c3;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 3px solid darkred;
+
+}
+
+img {
+    border: 6px double darkgreen;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+/* #titulo1 { */
+    /* background-color: red; */
+    /* background-color: rgb(200, 0, 200); */
+    /* background-color: #FF0000;  FF o máx de vermelho, 00 o min de verde e azul 
+    color: rgb(255, 255, 255)
+}
+
+
+/* Formas de colocar a cor: atraves do nome da cor em inglês e da proporçao rgb (red, green, blue)
+ou usando o exadecimal (# mais 6caracteres: 2 primeiros são as proporções de vermelho, os outros 2
+são as proporções de verde e ou ultimos 2 são proporções de azul. Os números vao de 0 a 9 e de A a F */
+
+/* Bordas podem ser solid, dotted, dashed, double, groove...
+border-radius: arredonda a borda */

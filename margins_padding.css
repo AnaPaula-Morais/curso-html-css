@@ -1,0 +1,17 @@
+body {
+    margin: 0px;
+}
+.exemplo {
+    border: 5px solid rgb(27, 211, 27);
+    padding:20px; /*espaçamento interno do meu elemento*/
+    margin:20px; /*espaçamento externo*/
+}
+
+
+
+
+/* Todo elemento que se coloca na tela tem 4 propriedades importantes:
+conteúdo
+borda
+margin
+padding */
