@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.link {
+    color: green;
+    font-size: 20px;
+}
+
+.link:hover  {
+    color: indianred;
+}
+/* hover é mouse em cima do elemento. Quando passar o mouse além do padrão vai ser apresentado o estilo do hover */
+
