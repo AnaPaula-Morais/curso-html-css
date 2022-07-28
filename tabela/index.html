@@ -1,0 +1,86 @@
+<!--A tag caption serve para descrever o que tem na tabela-->
+<caption>Pessoas por idade</caption>
+<!--Para fazer tabelas usa-se a tag <table>, para fazer as linhas usa-se a tag <tr>-->
+<table>
+    <!--Coloca-se o cabeçalho dentro da tag <thead>-->
+    <thead>
+        <tr>
+            <!--A tag <th> siginifica o cabeçalho da tabela-->
+            <th>Nome</th>
+            <th>Idade</th>
+        </tr>
+    </thead>
+
+    <!--O corpo da tabela fica dentro da tag <tbody>-->
+    <tbody>
+        <tr>
+            <!--A tag <td> é o conteúdo da linha-->
+            <td>Ana</td>
+            <td>33</td>
+        </tr>
+
+        <tr>
+            <td>Joana</td>
+            <td>18</td>
+        </tr>
+
+        <tr>
+            <td>Pedro</td>
+            <td>22</td>
+        </tr>
+    </tbody>
+    <!--Pode ser colocado também um rodapé na tabela com a tag <tfoot>-->
+    <tfoot>
+        <td>Total: </td>
+        <td>3 Pessoas</td>
+    </tfoot>
+</table><br/><br/>
+
+<!--Exercício: 2 lojas
+Quantos produtos foram produzidos, quantos vendidos e agrupado
+por nome dos produtos.-->
+
+<table>
+
+    <caption>Produzidos x Vendidos por Loja</caption>
+    <!--Colgroup tag para agrupar as colunas-->
+    <colgroup>
+        <col>
+        <col span="2" style="background-color: red">
+        <col span="2" style="background-color: blue;">
+    </colgroup>
+
+    <thead>
+        <tr>
+            <!--rowspan para ser ocupado 2 linhas e colspan para ocupar mais colunas-->
+            <th rowspan="2"></th>
+            <th colspan="2" scope="colgroup">Loja 1</th>
+            <th colspan="2" scope="colgroup">Loja 2</th>
+        </tr>
+
+        <tr>
+            <th scope="col">Produzidos</th>
+            <th scope="col">Vendidos</th>
+            <th scope="col">Produzidos</th>
+            <th scope="col">Vendidos</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <th scope="row">Vassouras</th>
+            <td>50</td>
+            <td>30</td>
+            <td>20</td>
+            <td>20</td>
+        </tr>
+
+        <tr>
+            <th scope="row">Baldes</th>
+            <td>10</td>
+            <td>10</td>
+            <td>30</td>
+            <td>25</td>
+        </tr>
+    </tbody>
+</table>
